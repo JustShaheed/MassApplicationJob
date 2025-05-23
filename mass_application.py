@@ -13,7 +13,6 @@ your_email = os.getenv("EMAIL")
 your_password = os.getenv("PASSWORD")
 subject = os.getenv("SUBJECT")
 resume_path = os.getenv("RESUME_PATH")
-
 body_template = os.getenv("BODY_TEMPLATE").replace("\\n", "\n")
 
 if provider == "gmail":
